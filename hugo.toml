@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tensor Network若手の会'
+theme = 'hugo-PaperMod'
