@@ -18,16 +18,27 @@ iconHeight = 35
 enabled = true
 title = "テンソルネットワーク若手の会"
 subtitle = """
-テンソルネットワークに関する情報共有やテンソルネットワークに興味を持っている方々の交流を目的としたコミュニティです.
+テンソルネットワークに興味を持っている方々の交流や
+
+テンソルネットワークに関する情報の共有を目的としたコミュニティです.
+
+特に, これまで交流が少なかった異分野間の交流を促進することを目指しています.
 
 テンソルネットワークに興味をお持ちの方はどなたでもご参加ください.
 
-本会ではDiscordが使えるなら若手とします.
 """
 imageUrl = "image/icon.png"
 imageWidth = 250
 imageHeight = 250
 imageTitle = "icon"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/TensorNetworkWakate/tensornetworkwakate.github.io"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.gg/jgsUUrVSZg"
 
 [[params.profileMode.buttons]]
 name = "Discordサーバーに参加する"
