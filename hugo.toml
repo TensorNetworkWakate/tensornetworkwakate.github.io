@@ -1,4 +1,30 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Tensor Network若手の会'
+baseURL = 'https://tensornetworkwakate.github.io/'
+languageCode = 'ja-jp'
+hasCJKLanguage = true
+title = 'テンソルネットワーク若手の会'
 theme = 'hugo-PaperMod'
+buildDrafts = false
+env = 'production'
+
+[params]
+defaultTheme = "auto"
+
+[params.profileMode]
+enabled = true
+title = "テンソルネットワーク若手の会"
+subtitle = """
+テンソルネットワークに関する情報共有やテンソルネットワークに興味を持っている方々の交流を目的としたコミュニティです.
+
+テンソルネットワークに興味をお持ちの方はどなたでもご参加ください.
+
+本会ではDiscordが使えるなら若手とします.
+"""
+imageUrl = "image/icon.png"
+imageWidth = 250
+imageHeight = 250
+imageTitle = "icon"
+
+[[params.profileMode.buttons]]
+name = "Discordサーバーに参加する"
+url = "https://discord.gg/jgsUUrVSZg"
+
