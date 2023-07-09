@@ -9,6 +9,11 @@ env = 'production'
 [params]
 defaultTheme = "auto"
 
+[params.label]
+text = "テンソルネットワーク若手の会"
+icon = "image/icon.png"
+iconHeight = 35
+
 [params.profileMode]
 enabled = true
 title = "テンソルネットワーク若手の会"
