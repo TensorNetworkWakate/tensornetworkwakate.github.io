@@ -2,7 +2,7 @@ baseURL = 'https://tensornetworkwakate.github.io/'
 languageCode = 'ja-jp'
 hasCJKLanguage = true
 title = 'テンソルネットワーク若手の会'
-theme = 'hugo-PaperMod'
+theme = 'PaperMod'
 buildDrafts = false
 env = 'production'
 
